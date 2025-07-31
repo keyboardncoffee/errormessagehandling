@@ -8,6 +8,7 @@ public class ErrorResponse {
     private final String message;
     private final Instant timestamp;
 
+
     public ErrorResponse(String code, String message) {
         this.code = code;
         this.message = message;
