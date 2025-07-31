@@ -25,9 +25,9 @@ Note: This library is not intended for field validation - it focuses solely on e
 </repositories>
 
 <dependency>
-  <groupId>com.github.keyboardncoffee</groupId>
-  <artifactId>errormessagehandler</artifactId>
-  <version>v1.0.0</version>
+    <groupId>com.github.keyboardncoffee</groupId>
+    <artifactId>errormessagehandling</artifactId>
+    <version>v1.0.0</version>
 </dependency>
 
 
@@ -35,14 +35,23 @@ Note: This library is not intended for field validation - it focuses solely on e
 
 ### gradle
 
-```
+1. Add this to your root settings.gradle
 
-repositories {
+```
+dependencyResolutionManagement {
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  repositories {
+    mavenCentral()
     maven { url 'https://jitpack.io' }
+  }
 }
 
+```
+
+2. Add this to your dependency
+```
 dependencies {
-    implementation 'com.github.keyboardncoffee:errormessagehandler:v1.0.0'
+        implementation 'com.github.keyboardncoffee:errormessagehandling:v1.0.0'
 }
 
 ```
