@@ -1,0 +1,16 @@
+package com.keyboardncoffee.errormessagehandler.base;
+
+import com.keyboardncoffee.errormessagehandler.exceptions.ConflictException;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class BaseExceptionTest {
+
+    @Test
+    void exceptionContainsCodeAndMessage(){
+        BaseException ex = new ConflictException("Duplicate entry found");
+        assertEquals("ERR-409", ex.getCode());
+        assertEquals("Duplicate entry found", ex.getMessage());
+    }
+}
