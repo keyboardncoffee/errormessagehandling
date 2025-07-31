@@ -11,8 +11,8 @@
 	<groupId>com.keyboardncoffee</groupId>
 	<artifactId>errormessagehandling</artifactId>
 	<version>1.0.2-SNAPSHOT</version>
-	<name>errormessagehandler</name>
-	<description>errormessagehandler</description>
+	<name>errormessagehandling</name>
+	<description>Error Message Handler Library</description>
 	<url/>
 	<licenses>
 		<license/>
