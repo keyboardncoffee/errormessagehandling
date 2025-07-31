@@ -1,5 +1,7 @@
 package com.keyboardncoffee.errormessagehandler.exceptions;
 
+import com.keyboardncoffee.errormessagehandler.ResourceNotFoundException;
+
 public class ResourceNotFoundExceptionTest {
 
     public void testDefaultMessage() {

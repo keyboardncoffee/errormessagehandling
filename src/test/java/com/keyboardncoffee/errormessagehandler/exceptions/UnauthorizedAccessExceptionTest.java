@@ -1,5 +1,7 @@
 package com.keyboardncoffee.errormessagehandler.exceptions;
 
+import com.keyboardncoffee.errormessagehandler.UnauthorizedAccessException;
+
 public class UnauthorizedAccessExceptionTest {
 
     public void testDefaultMessage() {

@@ -1,4 +1,4 @@
-package com.keyboardncoffee.errormessagehandler.exceptions;
+package com.keyboardncoffee.errormessagehandler;
 
 import com.keyboardncoffee.errormessagehandler.base.BaseException;
 import com.keyboardncoffee.errormessagehandler.enums.ErrorCode;

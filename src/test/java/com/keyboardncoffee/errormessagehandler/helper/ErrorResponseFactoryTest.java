@@ -1,7 +1,7 @@
 package com.keyboardncoffee.errormessagehandler.helper;
 
 import com.keyboardncoffee.errormessagehandler.base.BaseException;
-import com.keyboardncoffee.errormessagehandler.exceptions.ConflictException;
+import com.keyboardncoffee.errormessagehandler.ConflictException;
 import com.keyboardncoffee.errormessagehandler.model.ErrorResponse;
 
 import java.time.Duration;

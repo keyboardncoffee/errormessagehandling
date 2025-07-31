@@ -1,5 +1,7 @@
 package com.keyboardncoffee.errormessagehandler.exceptions;
 
+import com.keyboardncoffee.errormessagehandler.ServiceUnavailableException;
+
 public class ServiceUnavailableExceptionTest {
 
     public void testDefaultMessage() {

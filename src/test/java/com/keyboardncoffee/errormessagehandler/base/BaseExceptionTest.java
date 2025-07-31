@@ -1,6 +1,6 @@
 package com.keyboardncoffee.errormessagehandler.base;
 
-import com.keyboardncoffee.errormessagehandler.exceptions.ConflictException;
+import com.keyboardncoffee.errormessagehandler.ConflictException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,5 +1,7 @@
 package com.keyboardncoffee.errormessagehandler.exceptions;
 
+import com.keyboardncoffee.errormessagehandler.ConflictException;
+
 public class ConflictExceptionTest {
 
     public void testDefaultMessage() {

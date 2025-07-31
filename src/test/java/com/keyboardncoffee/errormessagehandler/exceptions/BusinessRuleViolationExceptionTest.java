@@ -1,5 +1,7 @@
 package com.keyboardncoffee.errormessagehandler.exceptions;
 
+import com.keyboardncoffee.errormessagehandler.BusinessRuleViolationException;
+
 public class BusinessRuleViolationExceptionTest {
 
     public void testDefaultMessage() {

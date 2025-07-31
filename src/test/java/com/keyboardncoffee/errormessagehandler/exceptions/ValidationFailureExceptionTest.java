@@ -1,5 +1,7 @@
 package com.keyboardncoffee.errormessagehandler.exceptions;
 
+import com.keyboardncoffee.errormessagehandler.ValidationFailureException;
+
 public class ValidationFailureExceptionTest {
 
     public void testDefaultMessage() {
