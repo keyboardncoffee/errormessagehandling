@@ -3,13 +3,15 @@ package com.keyboardncoffee.errormessagehandling.enums;
 import com.keyboardncoffee.errormessagehandling.base.BaseErrorMessage;
 
 public enum ErrorCode implements BaseErrorMessage {
-    RESOURCE_NOT_FOUND("ERR-404", "The requested resource was not found"),
+    OBJECT_NOT_FOUND("ERR-404", "The requested resource was not found or does not exist"),
     UNAUTHORIZED_ACCESS("ERR-401", "You are not authorized to access this resource"),
     INTERNAL_SERVER_ERROR("ERR-500", "An unexpected error occurred"),
     VALIDATION_FAILED("ERR-400", "Validation failed for the request"),
-    CONFLICT_ERROR("ERR-409", "There has been a conflict"),
+    OBJECT_ALREADY_EXIST_ERROR("ERR-409", "There has been a conflict"),
     SERVICE_UNAVAILABLE("ERR-503", "The service is unavailable"),
-    BUSINESS_RULE_ERROR("ERR-505", "The business rule has been reported");
+    BAD_REQUEST_ERROR("ERR-505", "The business rule has been reported"),
+    ILLEGAL_ARGUMENT_ERROR("ERR-408", "The entered data is not permitted here"),
+    NULL_ERROR("ERR-500", "The requested resource is null");
 
     private final String code;
     private final String message;

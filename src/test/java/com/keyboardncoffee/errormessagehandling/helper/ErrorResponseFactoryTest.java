@@ -1,7 +1,7 @@
 package com.keyboardncoffee.errormessagehandling.helper;
 
 import com.keyboardncoffee.errormessagehandling.base.BaseException;
-import com.keyboardncoffee.errormessagehandling.ConflictException;
+import com.keyboardncoffee.errormessagehandling.ObjectAlreadyExistException;
 import com.keyboardncoffee.errormessagehandling.model.ErrorResponse;
 
 import java.time.Duration;
@@ -10,7 +10,7 @@ import java.time.Instant;
 public class ErrorResponseFactoryTest {
 
     public void testFromBaseException() {
-        BaseException ex = new ConflictException("Username already exists");
+        BaseException ex = new ObjectAlreadyExistException("Username already exists");
         ErrorResponse response = ErrorResponseFactory.from(ex);
 
         assert "ERR-409".equals(response.getCode()) : "Expected ERR-409";

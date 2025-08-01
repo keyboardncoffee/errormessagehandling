@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.keyboardncoffee</groupId>
 	<artifactId>errormessagehandling</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.6-SNAPSHOT</version>
 	<name>errormessagehandling</name>
 	<description>Error Message Handler Library</description>
 	<url/>
